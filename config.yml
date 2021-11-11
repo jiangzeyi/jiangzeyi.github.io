@@ -112,6 +112,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: archive
+      name: archive
+      url: /archives/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
@@ -120,10 +124,19 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
     - identifier: example
       name: example.org
       url: https://example.org
       weight: 30
+output:
+  home:
+    - HTML
+    - RSS
+    - JSON
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

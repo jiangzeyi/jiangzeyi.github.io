@@ -1,4 +1,4 @@
-baseURL: "https://jiangzeyi.github.io/"
+baseURL: "/"
 title: JiangZeYi
 paginate: 5
 theme: PaperMod

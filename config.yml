@@ -10,8 +10,6 @@ buildExpired: false
 
 googleAnalytics: UA-123-45
 
-disqusShortname: jiangzeyi
-
 minify:
   disableXML: true
   minifyOutput: true

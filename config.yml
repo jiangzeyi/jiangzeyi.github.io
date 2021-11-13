@@ -1,6 +1,5 @@
-#
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "https://jiangzeyi.github.io/"
+title: JiangZeYi
 paginate: 5
 theme: PaperMod
 
@@ -11,63 +10,45 @@ buildExpired: false
 
 googleAnalytics: UA-123-45
 
+disqusShortname: jiangzeyi
+
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  env: production # 环境
+  title: JiangZeYi  #标题
+  description: "JiangZeYi"  # 描述
+  keywords: [Blog, JiangZeYi] # 关键字
+  author: JiangZeYi
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  images: [""]
+  DateFormat: "2006-01-02"  # 日期格式化
+  defaultTheme: auto # 设置默认主题
+  disableThemeToggle: false # 禁用标签之外显示的主题切换图标
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+  ShowReadingTime: true # 在 post meta 中显示阅读时间
+  ShowShareButtons: true  # 显示/隐藏帖子下的分享按钮
+  ShowPostNavLinks: true  # 在帖子下方显示上一个和下一个帖子
+  ShowBreadCrumbs: true # 在单个帖子/页面上方显示面包屑导航
+  ShowCodeCopyButtons: true  # 显示/隐藏代码复制按钮
+  disableSpecial1stPost: false  # 禁用第一个帖子的无卡特殊外观
+  disableScrollToTop: false # 禁用 ScrollToTop 按钮
+  comments: true # 显示/隐藏评论
+  hidemeta: false # 隐藏元元素：页面的日期、阅读时间、作者和可用翻译
+  hideSummary: false  # 隐藏列表页面中显示的摘要
+  showtoc: true # 显示/隐藏目录
+  tocopen: false # 在页面加载时默认保持打开目录
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableHLJS: false # 禁用 Highlight.js 加载
+    disableFingerprinting: false # 禁用资产的子资源完整性
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -93,56 +74,43 @@ params:
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/jiangzeyi/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # is necessary
+
 menu:
   main:
     - identifier: archive
-      name: archive
+      name: 归档
       url: /archives/
-      weight: 1
-    - identifier: categories
-      name: categories
-      url: /categories/
       weight: 10
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 15
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: search
-      name: search
+      name: 搜索
       url: /search/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-output:
-  home:
-    - HTML
-    - RSS
-    - JSON
+      weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+pygmentsUseClasses: false
+markup:
+ highlight:
+   anchorLineNos: true
+   codeFences: true
+   guessSyntax: true
+   lineNos: false  # 显示/隐藏行数
+   style: monokai

@@ -28,13 +28,13 @@ params:
   disableThemeToggle: false # 禁用标签之外显示的主题切换图标
 
   ShowReadingTime: true # 在 post meta 中显示阅读时间
-  ShowShareButtons: true  # 显示/隐藏帖子下的分享按钮
+  ShowShareButtons: false  # 显示/隐藏帖子下的分享按钮
   ShowPostNavLinks: true  # 在帖子下方显示上一个和下一个帖子
   ShowBreadCrumbs: true # 在单个帖子/页面上方显示面包屑导航
   ShowCodeCopyButtons: true  # 显示/隐藏代码复制按钮
   disableSpecial1stPost: false  # 禁用第一个帖子的无卡特殊外观
   disableScrollToTop: false # 禁用 ScrollToTop 按钮
-  comments: true # 显示/隐藏评论
+  comments: false # 显示/隐藏评论
   hidemeta: false # 隐藏元元素：页面的日期、阅读时间、作者和可用翻译
   hideSummary: false  # 隐藏列表页面中显示的摘要
   showtoc: true # 显示/隐藏目录
@@ -52,7 +52,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: 实践是最好的老师，但是，如果不能从中学习，再多的实践也没有用。
 
   socialIcons:
     - name: twitter

@@ -52,7 +52,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: 实践是最好的老师，但是，如果不能从中学习，再多的实践也没有用。
+    Content: 写些什么好呢？
 
   socialIcons:
     - name: twitter

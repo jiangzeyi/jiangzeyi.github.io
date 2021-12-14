@@ -1,5 +1,5 @@
-baseURL: "/"
-title: JiangZeYi
+baseURL: "http://www.jiangzeyi.com/"
+title: 江泽一
 paginate: 5
 theme: PaperMod
 defaultContentLanguage: zh
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # 环境
-  title: JiangZeYi  #标题
-  description: "JiangZeYi"  # 描述
-  keywords: [Blog, JiangZeYi] # 关键字
-  author: JiangZeYi
+  title: 江泽一  #标题
+  description: "江泽一"  # 描述
+  keywords: [Blog, 江泽一, 博客] # 关键字
+  author: 江泽一
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "2006-01-02"  # 日期格式化

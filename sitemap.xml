@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/archives/</loc>
+    <loc>http://www.jiangzeyi.com/archives/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://www.jiangzeyi.com/categories/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>http://www.jiangzeyi.com/search/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://www.jiangzeyi.com/tags/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>http://www.jiangzeyi.com/series/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>http://www.jiangzeyi.com/</loc>
   </url>
 </urlset>

@@ -51,7 +51,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "来者是客"
+    Title: "一介布衣"
     Content: 写些什么好呢？
 
   socialIcons:

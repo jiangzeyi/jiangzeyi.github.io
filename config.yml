@@ -1,5 +1,5 @@
 baseURL: "http://www.jiangzeyi.com/"
-title: 江泽一
+title: JiangZeYi
 paginate: 5
 theme: PaperMod
 defaultContentLanguage: zh
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # 环境
-  title: 江泽一  #标题
+  title: JiangZeYi  #标题
   description: "江泽一"  # 描述
-  keywords: [Blog, 江泽一, 博客] # 关键字
-  author: 江泽一
+  keywords: [Blog, JiangZeYi, 博客, 随笔] # 关键字
+  author: JiangZeYi
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "2006-01-02"  # 日期格式化
@@ -51,8 +51,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "一介布衣"
-    Content: 写些什么好呢？
+    Title: "笔随心动"
+    Content: 记录心中所得，心中所思，心中所想
 
   socialIcons:
     - name: twitter

@@ -30,7 +30,7 @@ params:
   ShowReadingTime: true # 在 post meta 中显示阅读时间
   ShowShareButtons: false  # 显示/隐藏帖子下的分享按钮
   ShowPostNavLinks: true  # 在帖子下方显示上一个和下一个帖子
-  ShowBreadCrumbs: true # 在单个帖子/页面上方显示面包屑导航
+  ShowBreadCrumbs: false # 在单个帖子/页面上方显示面包屑导航
   ShowCodeCopyButtons: true  # 显示/隐藏代码复制按钮
   disableSpecial1stPost: false  # 禁用第一个帖子的无卡特殊外观
   disableScrollToTop: false # 禁用 ScrollToTop 按钮
@@ -75,10 +75,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  editPost:
-    URL: "https://github.com/jiangzeyi/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/jiangzeyi/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: false # to append file path to Edit link
 
   profileMode:
     enabled: false
@@ -114,8 +114,8 @@ menu:
       url: /tags/
       weight: 20
     - identifier: search
-      name: 搜索
-      url: /search/
+      name: 关于
+      url: /about/
       weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false

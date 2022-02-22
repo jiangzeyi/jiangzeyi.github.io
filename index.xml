@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>泽毅</title>
-    <link>http://www.jiangzeyi.com/</link>
+    <link>https://www.jiangzeyi.com/</link>
     <description>Recent content on 泽毅</description>
     <image>
-      <url>http://www.jiangzeyi.com/</url>
-      <link>http://www.jiangzeyi.com/</link>
+      <url>https://www.jiangzeyi.com/</url>
+      <link>https://www.jiangzeyi.com/</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.jiangzeyi.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.jiangzeyi.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>关于</title>
-      <link>http://www.jiangzeyi.com/about/</link>
+      <link>https://www.jiangzeyi.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.jiangzeyi.com/about/</guid>
+      <guid>https://www.jiangzeyi.com/about/</guid>
       <description>关于</description>
     </item>
     

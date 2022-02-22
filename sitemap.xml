@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.jiangzeyi.com/archives/</loc>
+    <loc>https://www.jiangzeyi.com/archives/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/categories/</loc>
+    <loc>https://www.jiangzeyi.com/categories/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/search/</loc>
+    <loc>https://www.jiangzeyi.com/search/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/tags/</loc>
+    <loc>https://www.jiangzeyi.com/tags/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/series/</loc>
+    <loc>https://www.jiangzeyi.com/series/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/about/</loc>
+    <loc>https://www.jiangzeyi.com/about/</loc>
   </url><url>
-    <loc>http://www.jiangzeyi.com/</loc>
+    <loc>https://www.jiangzeyi.com/</loc>
   </url>
 </urlset>

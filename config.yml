@@ -1,5 +1,5 @@
 baseURL: "http://www.jiangzeyi.com/"
-title: JiangZeYi
+title: 泽毅
 paginate: 5
 theme: PaperMod
 defaultContentLanguage: zh
@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # 环境
-  title: JiangZeYi  #标题
-  description: "江泽一"  # 描述
-  keywords: [Blog, JiangZeYi, 博客, 随笔] # 关键字
-  author: JiangZeYi
+  title: 泽毅  #标题
+  description: "泽毅"  # 描述
+  keywords: [Blog, 泽毅, 博客, 随笔] # 关键字
+  author: 泽毅
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "2006-01-02"  # 日期格式化
@@ -82,16 +82,16 @@ params:
 
   profileMode:
     enabled: false
-    title: PaperMod
-    imageUrl: "#"
+    title: 泽毅
+    imageUrl: "https://q1.qlogo.cn/g?b=qq&s=100&nk=3530520772"
     imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+    # buttons:
+    #   - name: Archives
+    #     url: archives
+    #   - name: Tags
+    #     url: tags
 
 outputs:
     home:
@@ -113,10 +113,10 @@ menu:
       name: 标签
       url: /tags/
       weight: 20
-    - identifier: search
-      name: 关于
-      url: /about/
-      weight: 25
+    # - identifier: search
+    #   name: 关于
+    #   url: /about/
+    #   weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false
 markup:
@@ -138,7 +138,7 @@ privacy:
     simple: true
 
   twitter:
-    disabled: false
+    disabled: true
     enableDNT: true
     simple: true
 
@@ -147,7 +147,7 @@ privacy:
     simple: true
 
   youtube:
-    disabled: false
+    disabled: true
     privacyEnhanced: true
 
 services:

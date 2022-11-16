@@ -1,0 +1,20 @@
+* {
+    background-color: #ffffff; 
+    line-height: 2rem;
+    font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.header p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,156 @@
+baseURL: "https://www.jiangzeyi.com/"
+title: 泽毅
+paginate: 5
+theme: PaperMod
+defaultContentLanguage: zh
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # 环境
+  title: 泽毅  #标题
+  description: "泽毅"  # 描述
+  keywords: [Blog, 泽毅, 博客, 随笔] # 关键字
+  author: 泽毅
+  # author: ["Me", "You"] # multiple authors
+  images: [""]
+  DateFormat: "2006-01-02"  # 日期格式化
+  defaultTheme: auto # 设置默认主题
+  disableThemeToggle: false # 禁用标签之外显示的主题切换图标
+
+  ShowReadingTime: true # 在 post meta 中显示阅读时间
+  ShowShareButtons: false  # 显示/隐藏帖子下的分享按钮
+  ShowPostNavLinks: true  # 在帖子下方显示上一个和下一个帖子
+  ShowBreadCrumbs: false # 在单个帖子/页面上方显示面包屑导航
+  ShowCodeCopyButtons: true  # 显示/隐藏代码复制按钮
+  disableSpecial1stPost: false  # 禁用第一个帖子的无卡特殊外观
+  disableScrollToTop: false # 禁用 ScrollToTop 按钮
+  comments: false # 显示/隐藏评论
+  hidemeta: false # 隐藏元元素：页面的日期、阅读时间、作者和可用翻译
+  hideSummary: false  # 隐藏列表页面中显示的摘要
+  showtoc: true # 显示/隐藏目录
+  tocopen: false # 在页面加载时默认保持打开目录
+
+  assets:
+    disableHLJS: false # 禁用 Highlight.js 加载
+    disableFingerprinting: false # 禁用资产的子资源完整性
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "笔随心动"
+    Content: 记录心中所得，心中所思，心中所想
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/"
+    - name: github
+      url: "https://github.com/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/jiangzeyi/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: false # to append file path to Edit link
+
+  profileMode:
+    enabled: false
+    title: 泽毅
+    imageUrl: "https://q1.qlogo.cn/g?b=qq&s=100&nk=3530520772"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    # buttons:
+    #   - name: Archives
+    #     url: archives
+    #   - name: Tags
+    #     url: tags
+
+outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # is necessary
+
+menu:
+  main:
+    - identifier: archive
+      name: 归档
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 15
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    # - identifier: search
+    #   name: 关于
+    #   url: /about/
+    #   weight: 25
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: false
+markup:
+ highlight:
+   anchorLineNos: true
+   codeFences: true
+   guessSyntax: true
+   lineNos: false  # 显示/隐藏行数
+   style: monokai
+
+taxonomies:
+  category: categories
+  series: series
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: true
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: true
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

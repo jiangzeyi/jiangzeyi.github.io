@@ -1,12 +1,13 @@
 * {
     background-color: #ffffff; 
-    line-height: 2rem;
     font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
 }
 
-body {
+.container-sm {
     margin: 0 auto;
     max-width: 760px;
+    box-sizing:border-box;
+    padding: 0px 16px;
 }
 
 a {

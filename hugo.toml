@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme='simple-theme'
+
+[[menus.main]]
+name = '首页'
+pageRef = '/'
+weight = 10
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

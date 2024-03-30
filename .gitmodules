@@ -1,0 +1,3 @@
+[submodule "themes/simple-theme"]
+	path = themes/simple-theme
+	url = git@github.com:jiangzeyi/hugo-simple-theme.git

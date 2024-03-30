@@ -8,6 +8,15 @@ name = '首页'
 pageRef = '/'
 weight = 10
 
+[[menus.main]]
+name = '文章'
+pageRef = '/posts'
+weight = 20
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-9WKZWYQK3N'
+
 [module]
   [module.hugoVersion]
     extended = false

@@ -1,0 +1,40 @@
+# hugo config
+
+baseURL: 'http://www.jiangzeyi.com/'
+languageCode: zh-cn
+title: JzeYi
+theme: simple-theme
+copyright: '© 2023 ABC Widgets, Inc.'
+menus:
+  main:
+    - name: 首页
+      pageRef: /
+      weight: 10
+    - name: 文章
+      pageRef: /posts
+      weight: 20
+      
+services:
+  googleAnalytics:
+    id: G-9WKZWYQK3N
+security:
+  http:
+    mediaTypes:
+      - image/png
+      - image/jpeg
+module:
+  hugoVersion:
+    extended: false
+    min: 0.116.0
+  mounts:
+  
+    - source: static
+      target: assets
+
+# custom config
+params:
+  randomPhoto:
+    enable: true
+    width: '600'
+    height: '300'
+    url: https://picsum.photos/seed/%s/%s/%s

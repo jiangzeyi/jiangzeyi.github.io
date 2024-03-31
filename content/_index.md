@@ -2,7 +2,7 @@
 title = 'Home'
 +++
 
-{{<random_img>}}
+{{< random_photo >}}
 # 欢迎访问我的 Blog 👋
 
 ## 关于我

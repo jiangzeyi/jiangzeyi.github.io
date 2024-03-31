@@ -22,3 +22,6 @@ weight = 20
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+  [[module.mounts]]
+    source = 'static'
+    target = 'assets'

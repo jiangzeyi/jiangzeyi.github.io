@@ -4,6 +4,7 @@ baseURL: 'http://www.jiangzeyi.com/'
 languageCode: zh-cn
 title: JzeYi
 theme: simple-theme
+enableRobotsTXT: true
 copyright: '© 2023 ABC Widgets, Inc.'
 menus:
   main:

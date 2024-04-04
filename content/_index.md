@@ -1,5 +1,5 @@
 +++
-title = 'Home'
+title = '首页'
 +++
 
 {{< random_photo >}}

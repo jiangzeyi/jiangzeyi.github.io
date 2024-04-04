@@ -14,6 +14,9 @@ menus:
     - name: 文章
       pageRef: /posts
       weight: 20
+    - name: 相册
+      url: /gallery
+      weight: 30
       
 services:
   googleAnalytics:

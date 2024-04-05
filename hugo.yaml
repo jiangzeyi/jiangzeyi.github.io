@@ -17,10 +17,6 @@ menus:
     - name: 相册
       url: /gallery
       weight: 30
-      
-services:
-  googleAnalytics:
-    id: G-9WKZWYQK3N
 security:
   http:
     mediaTypes:
